@@ -64,10 +64,7 @@ h4{
 
 ::-webkit-scrollbar{
   -webkit-appearance: none;
-}
-
-::-webkit-scrollbar:vertical{
-  width: 4px;
+    width: 4px;
 }
 
 .sidebar:hover::-webkit-scrollbar-thumb {
