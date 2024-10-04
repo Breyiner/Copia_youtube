@@ -62,6 +62,19 @@ h4{
   margin-left: 12px;
 }
 
+::-webkit-scrollbar{
+  -webkit-appearance: none;
+}
+
+::-webkit-scrollbar:vertical{
+  width: 4px;
+}
+
+.sidebar:hover::-webkit-scrollbar-thumb {
+  background-color: #717171;
+  border-radius: 5px;
+}
+
 /*Estilos del header*/
 
 .header {
@@ -186,19 +199,6 @@ h4{
   background-color: #212121;
   padding: 10px;
   overflow-y: scroll;
-}
-
-::-webkit-scrollbar{
-  -webkit-appearance: none;
-}
-
-::-webkit-scrollbar:vertical{
-  width: 4px;
-}
-
-.sidebar:hover::-webkit-scrollbar-thumb {
-  background-color: #aaa;
-  border-radius: 15px;
 }
 
 .sidebar-items {
