@@ -334,3 +334,45 @@ h4{
   font-size: 0.8rem;
   color: #aaa;
 }
+
+@media (max-width:1200px){
+  body {
+    grid-template-columns: 70px 1fr;
+    transition: 0.1s;
+  }
+  
+  .header {
+    gap: 6px;
+  }
+
+  .sidebar-item span, .sidebar-items h4 {
+    display: none;
+    transition: 0.5s
+  }
+
+  .sidebar-items {
+    padding: 0;
+    transition: 0.5s
+  }
+
+  .sidebar-items i {
+    margin: 0 13px;
+    transition: 0.5s
+  }
+
+  .chips-warpper {
+    max-width: calc(100vw - 70px);
+  }
+}
+
+@media (max-width:800px){
+
+  .search-container input {
+    display: none;
+  }
+
+  .search-container button {
+    border-radius: 50%;
+    margin-left: 10px;
+  }
+}
