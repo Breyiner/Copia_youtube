@@ -7,17 +7,8 @@
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
-  
-.chips-warpper::-webkit-scrollbar {
-    height: 4px;
-}
-  
-.chips-warpper:hover::-webkit-scrollbar-thumb {
-    background-color: #717171;
-    border-radius: 5px;
-}
-  
-.chips {
+
+.chips-warpper__chips {
     margin: 12px 6px;
     background-color: #373737;
     padding: 6px 12px;
@@ -26,8 +17,19 @@
     border-radius: 16px;
     white-space: nowrap;
     transition: 0.5s;
+    font-size: 0.9rem;
+}
+
+.chips-warpper__chips:hover {
+    background-color: #d4d4d4;
+}
+
+/*Barra de scroll*/
+.chips-warpper::-webkit-scrollbar {
+    height: 4px;
 }
   
-.chips:hover {
-    background-color: #d4d4d4;
+.chips-warpper:hover::-webkit-scrollbar-thumb {
+    background-color: #717171;
+    border-radius: 5px;
 }
