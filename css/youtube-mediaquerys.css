@@ -1,26 +1,22 @@
 @media (max-width:1200px){
-    body {
-      grid-template-columns: 70px 1fr;
-      transition: 0.1s;
+    .youtube {
+      grid-template-columns:70px 1fr;
     }
     
     .header {
       gap: 6px;
     }
   
-    .sidebar-item span, .sidebar-items h4 {
+    .sidebar-items__texto, .sidebar-items__txt-ayuda {
       display: none;
-      transition: 0.5s
     }
   
     .sidebar-items {
       padding: 0;
-      transition: 0.5s
     }
   
-    .sidebar-items i {
+    .sidebar-items__icon {
       margin: 0 13px;
-      transition: 0.5s
     }
   
     .chips-warpper {
@@ -30,11 +26,11 @@
   
 @media (max-width:800px){
   
-    .search-container input {
+    .search-container__barra {
       display: none;
     }
   
-    .search-container button {
+    .icons-header--search {
       border-radius: 50%;
       margin-left: 10px;
     }

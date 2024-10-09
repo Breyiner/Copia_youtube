@@ -4,6 +4,7 @@
 @import url(youtube-sidebar.css);
 @import url(youtube-chips.css);
 @import url(youtube-content.css);
+@import url(youtube-mediaquerys.css);
 
 * {
   margin: 0;
