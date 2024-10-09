@@ -40,32 +40,19 @@ img {
   font-size: 1.3rem;
 } */
 
-p {
-  font-size: 0.9rem;
-}
+  p {
+    font-size: 0.9rem;
+  }
 
-a {
+/* a {
   text-decoration: none;
   font-size: 0.9rem;
   color: #fff;
-}
+} */
 
-h1 {
+/* h1 {
   font-size: 1.5rem;
-}
-
-hr {
-  margin: 12px 0;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-h4{
-  color: #aaa;
-  font-weight: bold;
-  text-transform: uppercase;
-  font-size: 0.9rem;
-  margin-left: 12px;
-}
+} */
 
 ::-webkit-scrollbar{
   width: 4px;
