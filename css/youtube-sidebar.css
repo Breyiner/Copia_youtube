@@ -1,0 +1,35 @@
+/*Sidebar*/
+
+.sidebar {
+    grid-area: sidebar;
+    background-color: #212121;
+    padding: 10px;
+    overflow-y: scroll;
+}
+  
+.sidebar:hover::-webkit-scrollbar-thumb {
+    background-color: #717171;
+    border-radius: 5px;
+}
+  
+.sidebar-items {
+    display: flex;
+    flex-direction: column;
+    padding: 0 14px;
+}
+  
+.sidebar-item {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+  
+.sidebar-item i {
+    margin: 0 24px;
+}
+  
+.sidebar-item:hover {
+    background-color: #4c4c4c;
+}
