@@ -8,7 +8,7 @@
     grid-auto-rows: max-content;
     column-gap: var(--tamanoGapColumns);
     padding: 20px;
-    background-color: var(--colorFuenteSecundario);
+    background-color: var(--colorSecundario);
     overflow-y: scroll;
     height: calc(100vh - 115px);
 }
