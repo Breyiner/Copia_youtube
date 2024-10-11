@@ -8,602 +8,599 @@
   <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet">
 </head>
-<body>
-  <div class="youtube">
-    <!--Header-->
-    <header class="header">
-      <!-- Contenedor logo -->
-      <div class="logo-container">
-        <a href="#" class="icons-header icons-header--menu">
-          <i class="ri-menu-line"></i>
-        </a>  
-        <div class="logo-container__logo logo">
-          <div class="logo__youtube">
-            <img src="img/logo.png" alt="logo">
+<body class="youtube">
+  <!--Header-->
+  <header class="header">
+    <!-- Contenedor logo -->
+    <div class="logo-container">
+      <a href="#" class="icons-header icons-header--menu">
+        <i class="ri-menu-line"></i>
+      </a>  
+      <div class="logo-container__logo logo">
+        <div class="logo__youtube">
+          <img src="img/logo.png" alt="logo" class="imagen">
+        </div>
+        <h1>Youtube</h1>
+      </div>
+    </div>
+    
+    <!-- Contenedor Busquedas -->
+    <div class="search-container">
+      <form action="" class="search-container__buscador">
+        <input type="text" placeholder="Buscar" class="search-container__barra">
+        <button class="icons-header icons-header--search">
+          <i class="ri-search-line"></i>
+        </button>
+      </form>
+      <button class="icons-header icons-header--microphone">
+        <i class="ri-mic-line"></i>
+      </button>
+    </div>
+
+    <!-- Contenedor perfil -->
+    <div class="profile-container">
+      <a href="#" class="icons-header icons-header--icon-profile">
+        <i class="ri-video-add-line"></i>
+      </a>
+      <a href="#" class="icons-header icons-header--icon-profile">
+        <i class="ri-notification-line"></i>
+      </a>
+      <div class="icons-header icons-header--logo-profile">
+        <img src="img/logo_cuenta.jpg" alt="logo" class="imagen">
+      </div>
+    </div>
+  </header>
+
+  <!--Sidebar-->
+  <aside class="sidebar">
+    <div class="sidebar-items">
+      <a href="#" class="sidebar-items__item">
+        <i class="ri-home-5-line sidebar-items__icon"></i><span class="sidebar-items__texto">Home</span>
+      </a>
+      <a href="#" class="sidebar-items__item">
+        <i class="ri-compass-3-line sidebar-items__icon"></i><span class="sidebar-items__texto">Explore</span>
+      </a>
+      <a href="#" class="sidebar-items__item">
+        <i class="ri-wireless-charging-line sidebar-items__icon"></i><span class="sidebar-items__texto">Shorts</span>
+      </a>
+      <a href="#" class="sidebar-items__item">
+        <i class="ri-rss-line sidebar-items__icon"></i><span class="sidebar-items__texto">Subscriptions</span>
+      </a>
+      <hr class="sidebar-items__separador">
+      <a href="#" class="sidebar-items__item">
+        <i class="ri-links-line sidebar-items__icon"></i><span class="sidebar-items__texto">Library</span>
+      </a>
+      <a href="#" class="sidebar-items__item">
+        <i class="ri-history-line sidebar-items__icon"></i><span class="sidebar-items__texto">History</span>
+      </a>
+      <a href="#" class="sidebar-items__item">
+        <i class="ri-video-line sidebar-items__icon"></i><span class="sidebar-items__texto">Your videos</span>
+      </a>
+      <a href="#" class="sidebar-items__item">
+        <i class="ri-time-line sidebar-items__icon"></i><span class="sidebar-items__texto">Watch videos</span>
+      </a>
+      <a href="#" class="sidebar-items__item">
+        <i class="ri-play-list-2-fill sidebar-items__icon"></i><span class="sidebar-items__texto">All videos</span>
+      </a>
+      <a href="#" class="sidebar-items__item">
+        <i class="ri-arrow-down-line sidebar-items__icon"></i><span class="sidebar-items__texto">Show more</span>
+      </a>
+      <hr class="sidebar-items__separador">
+      <h4 class="sidebar-items__txt-ayuda">more from youtube</h4>
+      <a href="#" class="sidebar-items__item">
+        <i class="ri-keyboard-box-line sidebar-items__icon"></i><span class="sidebar-items__texto">Gaming</span>
+      </a>
+      <a href="#" class="sidebar-items__item">
+        <i class="ri-live-line sidebar-items__icon"></i><span class="sidebar-items__texto">Live</span>
+      </a>
+      <a href="#" class="sidebar-items__item">
+        <i class="ri-award-line sidebar-items__icon"></i><span class="sidebar-items__texto">Sports</span>
+      </a>
+      <hr class="sidebar-items__separador">
+      <a href="#" class="sidebar-items__item">
+        <i class="ri-settings-2-line sidebar-items__icon"></i><span class="sidebar-items__texto">Settings</span>
+      </a>
+      <a href="#" class="sidebar-items__item">
+        <i class="ri-flag-line sidebar-items__icon"></i><span class="sidebar-items__texto">Report history</span>
+      </a>
+      <a href="#" class="sidebar-items__item">
+        <i class="ri-question-line sidebar-items__icon"></i><span class="sidebar-items__texto">Help</span>
+      </a>
+      <a href="#" class="sidebar-items__item">
+        <i class="ri-feedback-line sidebar-items__icon"></i><span class="sidebar-items__texto">Send feedback</span>
+      </a>
+      <hr class="sidebar-items__separador">
+    </div>
+  </aside>
+  <!--Main-->
+  <main class="content">
+    <div class="chips-warpper">
+      <div class="chips-warpper__chips">
+        <p>All</p>
+      </div>
+      <div class="chips-warpper__chips">
+        <p>HTML</p>
+      </div>
+      <div class="chips-warpper__chips">
+        <p>CSS</p>
+      </div>
+      <div class="chips-warpper__chips">
+        <p>Responsive design</p>
+      </div>
+      <div class="chips-warpper__chips">
+        <p>UI design</p>
+      </div>
+      <div class="chips-warpper__chips">
+        <p>JavaScript</p>
+      </div>
+      <div class="chips-warpper__chips">
+        <p>React</p>
+      </div>
+      <div class="chips-warpper__chips">
+        <p>UI/UX</p>
+      </div>
+      <div class="chips-warpper__chips">
+        <p>Java</p>
+      </div>
+      <div class="chips-warpper__chips">
+        <p>PHP</p>
+      </div>
+      <div class="chips-warpper__chips">
+        <p>Node js</p>
+      </div>
+      <div class="chips-warpper__chips">
+        <p>MySQL</p>
+      </div>
+      <div class="chips-warpper__chips">
+        <p>ORACLE</p>
+      </div>
+      <div class="chips-warpper__chips">
+        <p>UML</p>
+      </div>
+    </div>
+    <div class="video-container">
+
+      <div class="video-container__cover">
+        <div class="video-content">
+          <a href="#" class="video-content__video-box">
+            <img src="img/img-1.jpg" alt="video" class="imagen imagen--videos">
+          </a>
+          <div class="video-detail">
+            <div class="video-detail__chanel-logo">
+              <img src="img/logo_cuenta.jpg" alt="logo" class="imagen">
+            </div>
+            <div class="video-detail__details details">
+              <h3 class="details__title">Clon Youtube Flexbox and Grid Css</h3>
+              <div class="details__chanel-name">Breyner Acosta</div>
+              <div class="details__views-upload">
+                <div class="details__views">28k Views</div>
+                <div class="details__upload">1 Year Ago</div>
+              </div>
+            </div>
           </div>
-          <h1>Youtube</h1>
+        </div>
+      </div>
+      <div class="video-container__cover">
+        <div class="video-content">
+          <a href="#" class="video-content__video-box">
+            <img src="img/img-2.jpg" alt="video" class="imagen imagen--videos">
+          </a>
+          <div class="video-detail">
+            <div class="video-detail__chanel-logo">
+              <img src="img/logo_cuenta.jpg" alt="logo" class="imagen">
+            </div>
+            <div class="video-detail__details details">
+              <h3 class="details__title">Clon Youtube Flexbox and Grid Css</h3>
+              <div class="details__chanel-name">Breyner Acosta</div>
+              <div class="details__views-upload">
+                <div class="details__views">28k Views</div>
+                <div class="details__upload">1 Year Ago</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="video-container__cover">
+        <div class="video-content">
+          <a href="#" class="video-content__video-box">
+            <img src="img/img-3.jpg" alt="video" class="imagen imagen--videos">
+          </a>
+          <div class="video-detail">
+            <div class="video-detail__chanel-logo">
+              <img src="img/logo_cuenta.jpg" alt="logo" class="imagen">
+            </div>
+            <div class="video-detail__details details">
+              <h3 class="details__title">Clon Youtube Flexbox and Grid Css</h3>
+              <div class="details__chanel-name">Breyner Acosta</div>
+              <div class="details__views-upload">
+                <div class="details__views">28k Views</div>
+                <div class="details__upload">1 Year Ago</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="video-container__cover">
+        <div class="video-content">
+          <a href="#" class="video-content__video-box">
+            <img src="img/img-4.jpg" alt="video" class="imagen imagen--videos">
+          </a>
+          <div class="video-detail">
+            <div class="video-detail__chanel-logo">
+              <img src="img/logo_cuenta.jpg" alt="logo" class="imagen">
+            </div>
+            <div class="video-detail__details details">
+              <h3 class="details__title">Clon Youtube Flexbox and Grid Css</h3>
+              <div class="details__chanel-name">Breyner Acosta</div>
+              <div class="details__views-upload">
+                <div class="details__views">28k Views</div>
+                <div class="details__upload">1 Year Ago</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="video-container__cover">
+        <div class="video-content">
+          <a href="#" class="video-content__video-box">
+            <img src="img/img-5.jpg" alt="video" class="imagen imagen--videos">
+          </a>
+          <div class="video-detail">
+            <div class="video-detail__chanel-logo">
+              <img src="img/logo_cuenta.jpg" alt="logo" class="imagen">
+            </div>
+            <div class="video-detail__details details">
+              <h3 class="details__title">Clon Youtube Flexbox and Grid Css</h3>
+              <div class="details__chanel-name">Breyner Acosta</div>
+              <div class="details__views-upload">
+                <div class="details__views">28k Views</div>
+                <div class="details__upload">1 Year Ago</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="video-container__cover">
+        <div class="video-content">
+          <a href="#" class="video-content__video-box">
+            <img src="img/img-6.jpg" alt="video" class="imagen imagen--videos">
+          </a>
+          <div class="video-detail">
+            <div class="video-detail__chanel-logo">
+              <img src="img/logo_cuenta.jpg" alt="logo" class="imagen">
+            </div>
+            <div class="video-detail__details details">
+              <h3 class="details__title">Clon Youtube Flexbox and Grid Css</h3>
+              <div class="details__chanel-name">Breyner Acosta</div>
+              <div class="details__views-upload">
+                <div class="details__views">28k Views</div>
+                <div class="details__upload">1 Year Ago</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="video-container__cover">
+        <div class="video-content">
+          <a href="#" class="video-content__video-box">
+            <img src="img/img-7.jpg" alt="video" class="imagen imagen--videos">
+          </a>
+          <div class="video-detail">
+            <div class="video-detail__chanel-logo">
+              <img src="img/logo_cuenta.jpg" alt="logo" class="imagen">
+            </div>
+            <div class="video-detail__details details">
+              <h3 class="details__title">Clon Youtube Flexbox and Grid Css</h3>
+              <div class="details__chanel-name">Breyner Acosta</div>
+              <div class="details__views-upload">
+                <div class="details__views">28k Views</div>
+                <div class="details__upload">1 Year Ago</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="video-container__cover">
+        <div class="video-content">
+          <a href="#" class="video-content__video-box">
+            <img src="img/img-8.jpg" alt="video" class="imagen imagen--videos">
+          </a>
+          <div class="video-detail">
+            <div class="video-detail__chanel-logo">
+              <img src="img/logo_cuenta.jpg" alt="logo" class="imagen">
+            </div>
+            <div class="video-detail__details details">
+              <h3 class="details__title">Clon Youtube Flexbox and Grid Css</h3>
+              <div class="details__chanel-name">Breyner Acosta</div>
+              <div class="details__views-upload">
+                <div class="details__views">28k Views</div>
+                <div class="details__upload">1 Year Ago</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="video-container__cover">
+        <div class="video-content">
+          <a href="#" class="video-content__video-box">
+            <img src="img/img-9.jpg" alt="video" class="imagen imagen--videos">
+          </a>
+          <div class="video-detail">
+            <div class="video-detail__chanel-logo">
+              <img src="img/logo_cuenta.jpg" alt="logo" class="imagen">
+            </div>
+            <div class="video-detail__details details">
+              <h3 class="details__title">Clon Youtube Flexbox and Grid Css</h3>
+              <div class="details__chanel-name">Breyner Acosta</div>
+              <div class="details__views-upload">
+                <div class="details__views">28k Views</div>
+                <div class="details__upload">1 Year Ago</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="video-container__cover">
+        <div class="video-content">
+          <a href="#" class="video-content__video-box">
+            <img src="img/img-10.jpg" alt="video" class="imagen imagen--videos">
+          </a>
+          <div class="video-detail">
+            <div class="video-detail__chanel-logo">
+              <img src="img/logo_cuenta.jpg" alt="logo" class="imagen">
+            </div>
+            <div class="video-detail__details details">
+              <h3 class="details__title">Clon Youtube Flexbox and Grid Css</h3>
+              <div class="details__chanel-name">Breyner Acosta</div>
+              <div class="details__views-upload">
+                <div class="details__views">28k Views</div>
+                <div class="details__upload">1 Year Ago</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="video-container__cover">
+        <div class="video-content">
+          <a href="#" class="video-content__video-box">
+            <img src="img/img-11.jpg" alt="video" class="imagen imagen--videos">
+          </a>
+          <div class="video-detail">
+            <div class="video-detail__chanel-logo">
+              <img src="img/logo_cuenta.jpg" alt="logo" class="imagen">
+            </div>
+            <div class="video-detail__details details">
+              <h3 class="details__title">Clon Youtube Flexbox and Grid Css</h3>
+              <div class="details__chanel-name">Breyner Acosta</div>
+              <div class="details__views-upload">
+                <div class="details__views">28k Views</div>
+                <div class="details__upload">1 Year Ago</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="video-container__cover">
+        <div class="video-content">
+          <a href="#" class="video-content__video-box">
+            <img src="img/img-12.jpg" alt="video" class="imagen imagen--videos">
+          </a>
+          <div class="video-detail">
+            <div class="video-detail__chanel-logo">
+              <img src="img/logo_cuenta.jpg" alt="logo" class="imagen">
+            </div>
+            <div class="video-detail__details details">
+              <h3 class="details__title">Clon Youtube Flexbox and Grid Css</h3>
+              <div class="details__chanel-name">Breyner Acosta</div>
+              <div class="details__views-upload">
+                <div class="details__views">28k Views</div>
+                <div class="details__upload">1 Year Ago</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="video-container__cover">
+        <div class="video-content">
+          <a href="#" class="video-content__video-box">
+            <img src="img/img-13.jpg" alt="video" class="imagen imagen--videos">
+          </a>
+          <div class="video-detail">
+            <div class="video-detail__chanel-logo">
+              <img src="img/logo_cuenta.jpg" alt="logo" class="imagen">
+            </div>
+            <div class="video-detail__details details">
+              <h3 class="details__title">Clon Youtube Flexbox and Grid Css</h3>
+              <div class="details__chanel-name">Breyner Acosta</div>
+              <div class="details__views-upload">
+                <div class="details__views">28k Views</div>
+                <div class="details__upload">1 Year Ago</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="video-container__cover">
+        <div class="video-content">
+          <a href="#" class="video-content__video-box">
+            <img src="img/img-14.jpg" alt="video" class="imagen imagen--videos">
+          </a>
+          <div class="video-detail">
+            <div class="video-detail__chanel-logo">
+              <img src="img/logo_cuenta.jpg" alt="logo" class="imagen">
+            </div>
+            <div class="video-detail__details details">
+              <h3 class="details__title">Clon Youtube Flexbox and Grid Css</h3>
+              <div class="details__chanel-name">Breyner Acosta</div>
+              <div class="details__views-upload">
+                <div class="details__views">28k Views</div>
+                <div class="details__upload">1 Year Ago</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="video-container__cover">
+        <div class="video-content">
+          <a href="#" class="video-content__video-box">
+            <img src="img/img-15.jpg" alt="video" class="imagen imagen--videos">
+          </a>
+          <div class="video-detail">
+            <div class="video-detail__chanel-logo">
+              <img src="img/logo_cuenta.jpg" alt="logo" class="imagen">
+            </div>
+            <div class="video-detail__details details">
+              <h3 class="details__title">Clon Youtube Flexbox and Grid Css</h3>
+              <div class="details__chanel-name">Breyner Acosta</div>
+              <div class="details__views-upload">
+                <div class="details__views">28k Views</div>
+                <div class="details__upload">1 Year Ago</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="video-container__cover">
+        <div class="video-content">
+          <a href="#" class="video-content__video-box">
+            <img src="img/img-16.jpg" alt="video" class="imagen imagen--videos">
+          </a>
+          <div class="video-detail">
+            <div class="video-detail__chanel-logo">
+              <img src="img/logo_cuenta.jpg" alt="logo" class="imagen">
+            </div>
+            <div class="video-detail__details details">
+              <h3 class="details__title">Clon Youtube Flexbox and Grid Css</h3>
+              <div class="details__chanel-name">Breyner Acosta</div>
+              <div class="details__views-upload">
+                <div class="details__views">28k Views</div>
+                <div class="details__upload">1 Year Ago</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="video-container__cover">
+        <div class="video-content">
+          <a href="#" class="video-content__video-box">
+            <img src="img/img-17.jpg" alt="video" class="imagen imagen--videos">
+          </a>
+          <div class="video-detail">
+            <div class="video-detail__chanel-logo">
+              <img src="img/logo_cuenta.jpg" alt="logo" class="imagen">
+            </div>
+            <div class="video-detail__details details">
+              <h3 class="details__title">Clon Youtube Flexbox and Grid Css</h3>
+              <div class="details__chanel-name">Breyner Acosta</div>
+              <div class="details__views-upload">
+                <div class="details__views">28k Views</div>
+                <div class="details__upload">1 Year Ago</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="video-container__cover">
+        <div class="video-content">
+          <a href="#" class="video-content__video-box">
+            <img src="img/img-18.jpg" alt="video" class="imagen imagen--videos">
+          </a>
+          <div class="video-detail">
+            <div class="video-detail__chanel-logo">
+              <img src="img/logo_cuenta.jpg" alt="logo" class="imagen">
+            </div>
+            <div class="video-detail__details details">
+              <h3 class="details__title">Clon Youtube Flexbox and Grid Css</h3>
+              <div class="details__chanel-name">Breyner Acosta</div>
+              <div class="details__views-upload">
+                <div class="details__views">28k Views</div>
+                <div class="details__upload">1 Year Ago</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="video-container__cover">
+        <div class="video-content">
+          <a href="#" class="video-content__video-box">
+            <img src="img/img-19.jpg" alt="video" class="imagen imagen--videos">
+          </a>
+          <div class="video-detail">
+            <div class="video-detail__chanel-logo">
+              <img src="img/logo_cuenta.jpg" alt="logo" class="imagen">
+            </div>
+            <div class="video-detail__details details">
+              <h3 class="details__title">Clon Youtube Flexbox and Grid Css</h3>
+              <div class="details__chanel-name">Breyner Acosta</div>
+              <div class="details__views-upload">
+                <div class="details__views">28k Views</div>
+                <div class="details__upload">1 Year Ago</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="video-container__cover">
+        <div class="video-content">
+          <a href="#" class="video-content__video-box">
+            <img src="img/img-20.jpg" alt="video" class="imagen imagen--videos">
+          </a>
+          <div class="video-detail">
+            <div class="video-detail__chanel-logo">
+              <img src="img/logo_cuenta.jpg" alt="logo" class="imagen">
+            </div>
+            <div class="video-detail__details details">
+              <h3 class="details__title">Clon Youtube Flexbox and Grid Css</h3>
+              <div class="details__chanel-name">Breyner Acosta</div>
+              <div class="details__views-upload">
+                <div class="details__views">28k Views</div>
+                <div class="details__upload">1 Year Ago</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="video-container__cover">
+        <div class="video-content">
+          <a href="#" class="video-content__video-box">
+            <img src="img/img-21.jpg" alt="video" class="imagen imagen--videos">
+          </a>
+          <div class="video-detail">
+            <div class="video-detail__chanel-logo">
+              <img src="img/logo_cuenta.jpg" alt="logo" class="imagen">
+            </div>
+            <div class="video-detail__details details">
+              <h3 class="details__title">Clon Youtube Flexbox and Grid Css</h3>
+              <div class="details__chanel-name">Breyner Acosta</div>
+              <div class="details__views-upload">
+                <div class="details__views">28k Views</div>
+                <div class="details__upload">1 Year Ago</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="video-container__cover">
+        <div class="video-content">
+          <a href="#" class="video-content__video-box">
+            <img src="img/img-22.jpg" alt="video" class="imagen imagen--videos">
+          </a>
+          <div class="video-detail">
+            <div class="video-detail__chanel-logo">
+              <img src="img/logo_cuenta.jpg" alt="logo" class="imagen">
+            </div>
+            <div class="video-detail__details details">
+              <h3 class="details__title">Clon Youtube Flexbox and Grid Css</h3>
+              <div class="details__chanel-name">Breyner Acosta</div>
+              <div class="details__views-upload">
+                <div class="details__views">28k Views</div>
+                <div class="details__upload">1 Year Ago</div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       
-      <!-- Contenedor Busquedas -->
-      <div class="search-container">
-        <form action="" class="search-container__buscador">
-          <input type="text" placeholder="Buscar" class="search-container__barra">
-          <button class="icons-header icons-header--search">
-            <i class="ri-search-line"></i>
-          </button>
-        </form>
-        <button class="icons-header icons-header--microphone">
-          <i class="ri-mic-line"></i>
-        </button>
-      </div>
-  
-      <!-- Contenedor perfil -->
-      <div class="profile-container">
-        <a href="#" class="icons-header icons-header--icon-profile">
-          <i class="ri-video-add-line"></i>
-        </a>
-        <a href="#" class="icons-header icons-header--icon-profile">
-          <i class="ri-notification-line"></i>
-        </a>
-        <div class="icons-header icons-header--logo-profile">
-          <img src="img/logo_cuenta.jpg" alt="logo">
-        </div>
-      </div>
-    </header>
-
-    <!--Sidebar-->
-    <aside class="sidebar">
-      <div class="sidebar-items">
-        <a href="#" class="sidebar-items__item">
-          <i class="ri-home-5-line sidebar-items__icon"></i><span class="sidebar-items__texto">Home</span>
-        </a>
-        <a href="#" class="sidebar-items__item">
-          <i class="ri-compass-3-line sidebar-items__icon"></i><span class="sidebar-items__texto">Explore</span>
-        </a>
-        <a href="#" class="sidebar-items__item">
-          <i class="ri-wireless-charging-line sidebar-items__icon"></i><span class="sidebar-items__texto">Shorts</span>
-        </a>
-        <a href="#" class="sidebar-items__item">
-          <i class="ri-rss-line sidebar-items__icon"></i><span class="sidebar-items__texto">Subscriptions</span>
-        </a>
-        <hr class="sidebar-items__separador">
-        <a href="#" class="sidebar-items__item">
-          <i class="ri-links-line sidebar-items__icon"></i><span class="sidebar-items__texto">Library</span>
-        </a>
-        <a href="#" class="sidebar-items__item">
-          <i class="ri-history-line sidebar-items__icon"></i><span class="sidebar-items__texto">History</span>
-        </a>
-        <a href="#" class="sidebar-items__item">
-          <i class="ri-video-line sidebar-items__icon"></i><span class="sidebar-items__texto">Your videos</span>
-        </a>
-        <a href="#" class="sidebar-items__item">
-          <i class="ri-time-line sidebar-items__icon"></i><span class="sidebar-items__texto">Watch videos</span>
-        </a>
-        <a href="#" class="sidebar-items__item">
-          <i class="ri-play-list-2-fill sidebar-items__icon"></i><span class="sidebar-items__texto">All videos</span>
-        </a>
-        <a href="#" class="sidebar-items__item">
-          <i class="ri-arrow-down-line sidebar-items__icon"></i><span class="sidebar-items__texto">Show more</span>
-        </a>
-        <hr class="sidebar-items__separador">
-        <h4 class="sidebar-items__txt-ayuda">more from youtube</h4>
-        <a href="#" class="sidebar-items__item">
-          <i class="ri-keyboard-box-line sidebar-items__icon"></i><span class="sidebar-items__texto">Gaming</span>
-        </a>
-        <a href="#" class="sidebar-items__item">
-          <i class="ri-live-line sidebar-items__icon"></i><span class="sidebar-items__texto">Live</span>
-        </a>
-        <a href="#" class="sidebar-items__item">
-          <i class="ri-award-line sidebar-items__icon"></i><span class="sidebar-items__texto">Sports</span>
-        </a>
-        <hr class="sidebar-items__separador">
-        <a href="#" class="sidebar-items__item">
-          <i class="ri-settings-2-line sidebar-items__icon"></i><span class="sidebar-items__texto">Settings</span>
-        </a>
-        <a href="#" class="sidebar-items__item">
-          <i class="ri-flag-line sidebar-items__icon"></i><span class="sidebar-items__texto">Report history</span>
-        </a>
-        <a href="#" class="sidebar-items__item">
-          <i class="ri-question-line sidebar-items__icon"></i><span class="sidebar-items__texto">Help</span>
-        </a>
-        <a href="#" class="sidebar-items__item">
-          <i class="ri-feedback-line sidebar-items__icon"></i><span class="sidebar-items__texto">Send feedback</span>
-        </a>
-        <hr class="sidebar-items__separador">
-      </div>
-    </aside>
-    <!--Main-->
-    <main class="content">
-      <div class="chips-warpper">
-        <div class="chips-warpper__chips">
-          <p>All</p>
-        </div>
-        <div class="chips-warpper__chips">
-          <p>HTML</p>
-        </div>
-        <div class="chips-warpper__chips">
-          <p>CSS</p>
-        </div>
-        <div class="chips-warpper__chips">
-          <p>Responsive design</p>
-        </div>
-        <div class="chips-warpper__chips">
-          <p>UI design</p>
-        </div>
-        <div class="chips-warpper__chips">
-          <p>JavaScript</p>
-        </div>
-        <div class="chips-warpper__chips">
-          <p>React</p>
-        </div>
-        <div class="chips-warpper__chips">
-          <p>UI/UX</p>
-        </div>
-        <div class="chips-warpper__chips">
-          <p>Java</p>
-        </div>
-        <div class="chips-warpper__chips">
-          <p>PHP</p>
-        </div>
-        <div class="chips-warpper__chips">
-          <p>Node js</p>
-        </div>
-        <div class="chips-warpper__chips">
-          <p>MySQL</p>
-        </div>
-        <div class="chips-warpper__chips">
-          <p>ORACLE</p>
-        </div>
-        <div class="chips-warpper__chips">
-          <p>UML</p>
-        </div>
-      </div>
-      <div class="video-container">
-  
-        <div class="video-container-cover">
-          <div class="video-content">
-            <a href="#" class="video-box">
-              <img src="img/img-1.jpg" alt="video">
-            </a>
-            <div class="video-detail">
-              <div class="chanel-logo">
-                <img src="img/logo_cuenta.jpg" alt="logo">
-              </div>
-              <div class="detail">
-                <h3 class="title">Clon Youtube Flexbox and Grid Css</h3>
-                <div class="chanel-name">Breyner Acosta</div>
-                <div class="views-upload">
-                  <div class="views">28k Views</div>
-                  <div class="upload">1 Year Ago</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="video-container-cover">
-          <div class="video-content">
-            <a href="#" class="video-box">
-              <img src="img/img-2.jpg" alt="video">
-            </a>
-            <div class="video-detail">
-              <div class="chanel-logo">
-                <img src="img/logo_cuenta.jpg" alt="logo">
-              </div>
-              <div class="detail">
-                <h3 class="title">Clon Youtube Flexbox and Grid Css</h3>
-                <div class="chanel-name">Breyner Acosta</div>
-                <div class="views-upload">
-                  <div class="views">28k Views</div>
-                  <div class="upload">1 Year Ago</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="video-container-cover">
-          <div class="video-content">
-            <a href="#" class="video-box">
-              <img src="img/img-3.jpg" alt="video">
-            </a>
-            <div class="video-detail">
-              <div class="chanel-logo">
-                <img src="img/logo_cuenta.jpg" alt="logo">
-              </div>
-              <div class="detail">
-                <h3 class="title">Clon Youtube Flexbox and Grid Css</h3>
-                <div class="chanel-name">Breyner Acosta</div>
-                <div class="views-upload">
-                  <div class="views">28k Views</div>
-                  <div class="upload">1 Year Ago</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="video-container-cover">
-          <div class="video-content">
-            <a href="#" class="video-box">
-              <img src="img/img-4.jpg" alt="video">
-            </a>
-            <div class="video-detail">
-              <div class="chanel-logo">
-                <img src="img/logo_cuenta.jpg" alt="logo">
-              </div>
-              <div class="detail">
-                <h3 class="title">Clon Youtube Flexbox and Grid Css</h3>
-                <div class="chanel-name">Breyner Acosta</div>
-                <div class="views-upload">
-                  <div class="views">28k Views</div>
-                  <div class="upload">1 Year Ago</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="video-container-cover">
-          <div class="video-content">
-            <a href="#" class="video-box">
-              <img src="img/img-5.jpg" alt="video">
-            </a>
-            <div class="video-detail">
-              <div class="chanel-logo">
-                <img src="img/logo_cuenta.jpg" alt="logo">
-              </div>
-              <div class="detail">
-                <h3 class="title">Clon Youtube Flexbox and Grid Css</h3>
-                <div class="chanel-name">Breyner Acosta</div>
-                <div class="views-upload">
-                  <div class="views">28k Views</div>
-                  <div class="upload">1 Year Ago</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="video-container-cover">
-          <div class="video-content">
-            <a href="#" class="video-box">
-              <img src="img/img-6.jpg" alt="video">
-            </a>
-            <div class="video-detail">
-              <div class="chanel-logo">
-                <img src="img/logo_cuenta.jpg" alt="logo">
-              </div>
-              <div class="detail">
-                <h3 class="title">Clon Youtube Flexbox and Grid Css</h3>
-                <div class="chanel-name">Breyner Acosta</div>
-                <div class="views-upload">
-                  <div class="views">28k Views</div>
-                  <div class="upload">1 Year Ago</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="video-container-cover">
-          <div class="video-content">
-            <a href="#" class="video-box">
-              <img src="img/img-7.jpg" alt="video">
-            </a>
-            <div class="video-detail">
-              <div class="chanel-logo">
-                <img src="img/logo_cuenta.jpg" alt="logo">
-              </div>
-              <div class="detail">
-                <h3 class="title">Clon Youtube Flexbox and Grid Css</h3>
-                <div class="chanel-name">Breyner Acosta</div>
-                <div class="views-upload">
-                  <div class="views">28k Views</div>
-                  <div class="upload">1 Year Ago</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="video-container-cover">
-          <div class="video-content">
-            <a href="#" class="video-box">
-              <img src="img/img-8.jpg" alt="video">
-            </a>
-            <div class="video-detail">
-              <div class="chanel-logo">
-                <img src="img/logo_cuenta.jpg" alt="logo">
-              </div>
-              <div class="detail">
-                <h3 class="title">Clon Youtube Flexbox and Grid Css</h3>
-                <div class="chanel-name">Breyner Acosta</div>
-                <div class="views-upload">
-                  <div class="views">28k Views</div>
-                  <div class="upload">1 Year Ago</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="video-container-cover">
-          <div class="video-content">
-            <a href="#" class="video-box">
-              <img src="img/img-9.jpg" alt="video">
-            </a>
-            <div class="video-detail">
-              <div class="chanel-logo">
-                <img src="img/logo_cuenta.jpg" alt="logo">
-              </div>
-              <div class="detail">
-                <h3 class="title">Clon Youtube Flexbox and Grid Css</h3>
-                <div class="chanel-name">Breyner Acosta</div>
-                <div class="views-upload">
-                  <div class="views">28k Views</div>
-                  <div class="upload">1 Year Ago</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="video-container-cover">
-          <div class="video-content">
-            <a href="#" class="video-box">
-              <img src="img/img-10.jpg" alt="video">
-            </a>
-            <div class="video-detail">
-              <div class="chanel-logo">
-                <img src="img/logo_cuenta.jpg" alt="logo">
-              </div>
-              <div class="detail">
-                <h3 class="title">Clon Youtube Flexbox and Grid Css</h3>
-                <div class="chanel-name">Breyner Acosta</div>
-                <div class="views-upload">
-                  <div class="views">28k Views</div>
-                  <div class="upload">1 Year Ago</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="video-container-cover">
-          <div class="video-content">
-            <a href="#" class="video-box">
-              <img src="img/img-11.jpg" alt="video">
-            </a>
-            <div class="video-detail">
-              <div class="chanel-logo">
-                <img src="img/logo_cuenta.jpg" alt="logo">
-              </div>
-              <div class="detail">
-                <h3 class="title">Clon Youtube Flexbox and Grid Css</h3>
-                <div class="chanel-name">Breyner Acosta</div>
-                <div class="views-upload">
-                  <div class="views">28k Views</div>
-                  <div class="upload">1 Year Ago</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="video-container-cover">
-          <div class="video-content">
-            <a href="#" class="video-box">
-              <img src="img/img-12.jpg" alt="video">
-            </a>
-            <div class="video-detail">
-              <div class="chanel-logo">
-                <img src="img/logo_cuenta.jpg" alt="logo">
-              </div>
-              <div class="detail">
-                <h3 class="title">Clon Youtube Flexbox and Grid Css</h3>
-                <div class="chanel-name">Breyner Acosta</div>
-                <div class="views-upload">
-                  <div class="views">28k Views</div>
-                  <div class="upload">1 Year Ago</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="video-container-cover">
-          <div class="video-content">
-            <a href="#" class="video-box">
-              <img src="img/img-13.jpg" alt="video">
-            </a>
-            <div class="video-detail">
-              <div class="chanel-logo">
-                <img src="img/logo_cuenta.jpg" alt="logo">
-              </div>
-              <div class="detail">
-                <h3 class="title">Clon Youtube Flexbox and Grid Css</h3>
-                <div class="chanel-name">Breyner Acosta</div>
-                <div class="views-upload">
-                  <div class="views">28k Views</div>
-                  <div class="upload">1 Year Ago</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="video-container-cover">
-          <div class="video-content">
-            <a href="#" class="video-box">
-              <img src="img/img-14.jpg" alt="video">
-            </a>
-            <div class="video-detail">
-              <div class="chanel-logo">
-                <img src="img/logo_cuenta.jpg" alt="logo">
-              </div>
-              <div class="detail">
-                <h3 class="title">Clon Youtube Flexbox and Grid Css</h3>
-                <div class="chanel-name">Breyner Acosta</div>
-                <div class="views-upload">
-                  <div class="views">28k Views</div>
-                  <div class="upload">1 Year Ago</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="video-container-cover">
-          <div class="video-content">
-            <a href="#" class="video-box">
-              <img src="img/img-15.jpg" alt="video">
-            </a>
-            <div class="video-detail">
-              <div class="chanel-logo">
-                <img src="img/logo_cuenta.jpg" alt="logo">
-              </div>
-              <div class="detail">
-                <h3 class="title">Clon Youtube Flexbox and Grid Css</h3>
-                <div class="chanel-name">Breyner Acosta</div>
-                <div class="views-upload">
-                  <div class="views">28k Views</div>
-                  <div class="upload">1 Year Ago</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="video-container-cover">
-          <div class="video-content">
-            <a href="#" class="video-box">
-              <img src="img/img-16.jpg" alt="video">
-            </a>
-            <div class="video-detail">
-              <div class="chanel-logo">
-                <img src="img/logo_cuenta.jpg" alt="logo">
-              </div>
-              <div class="detail">
-                <h3 class="title">Clon Youtube Flexbox and Grid Css</h3>
-                <div class="chanel-name">Breyner Acosta</div>
-                <div class="views-upload">
-                  <div class="views">28k Views</div>
-                  <div class="upload">1 Year Ago</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="video-container-cover">
-          <div class="video-content">
-            <a href="#" class="video-box">
-              <img src="img/img-17.jpg" alt="video">
-            </a>
-            <div class="video-detail">
-              <div class="chanel-logo">
-                <img src="img/logo_cuenta.jpg" alt="logo">
-              </div>
-              <div class="detail">
-                <h3 class="title">Clon Youtube Flexbox and Grid Css</h3>
-                <div class="chanel-name">Breyner Acosta</div>
-                <div class="views-upload">
-                  <div class="views">28k Views</div>
-                  <div class="upload">1 Year Ago</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="video-container-cover">
-          <div class="video-content">
-            <a href="#" class="video-box">
-              <img src="img/img-18.jpg" alt="video">
-            </a>
-            <div class="video-detail">
-              <div class="chanel-logo">
-                <img src="img/logo_cuenta.jpg" alt="logo">
-              </div>
-              <div class="detail">
-                <h3 class="title">Clon Youtube Flexbox and Grid Css</h3>
-                <div class="chanel-name">Breyner Acosta</div>
-                <div class="views-upload">
-                  <div class="views">28k Views</div>
-                  <div class="upload">1 Year Ago</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="video-container-cover">
-          <div class="video-content">
-            <a href="#" class="video-box">
-              <img src="img/img-19.jpg" alt="video">
-            </a>
-            <div class="video-detail">
-              <div class="chanel-logo">
-                <img src="img/logo_cuenta.jpg" alt="logo">
-              </div>
-              <div class="detail">
-                <h3 class="title">Clon Youtube Flexbox and Grid Css</h3>
-                <div class="chanel-name">Breyner Acosta</div>
-                <div class="views-upload">
-                  <div class="views">28k Views</div>
-                  <div class="upload">1 Year Ago</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="video-container-cover">
-          <div class="video-content">
-            <a href="#" class="video-box">
-              <img src="img/img-20.jpg" alt="video">
-            </a>
-            <div class="video-detail">
-              <div class="chanel-logo">
-                <img src="img/logo_cuenta.jpg" alt="logo">
-              </div>
-              <div class="detail">
-                <h3 class="title">Clon Youtube Flexbox and Grid Css</h3>
-                <div class="chanel-name">Breyner Acosta</div>
-                <div class="views-upload">
-                  <div class="views">28k Views</div>
-                  <div class="upload">1 Year Ago</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="video-container-cover">
-          <div class="video-content">
-            <a href="#" class="video-box">
-              <img src="img/img-21.jpg" alt="video">
-            </a>
-            <div class="video-detail">
-              <div class="chanel-logo">
-                <img src="img/logo_cuenta.jpg" alt="logo">
-              </div>
-              <div class="detail">
-                <h3 class="title">Clon Youtube Flexbox and Grid Css</h3>
-                <div class="chanel-name">Breyner Acosta</div>
-                <div class="views-upload">
-                  <div class="views">28k Views</div>
-                  <div class="upload">1 Year Ago</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="video-container-cover">
-          <div class="video-content">
-            <a href="#" class="video-box">
-              <img src="img/img-22.jpg" alt="video">
-            </a>
-            <div class="video-detail">
-              <div class="chanel-logo">
-                <img src="img/logo_cuenta.jpg" alt="logo">
-              </div>
-              <div class="detail">
-                <h3 class="title">Clon Youtube Flexbox and Grid Css</h3>
-                <div class="chanel-name">Breyner Acosta</div>
-                <div class="views-upload">
-                  <div class="views">28k Views</div>
-                  <div class="upload">1 Year Ago</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-      </div>
-    </main>
-  </div>
+  </main>
 </body>
 </html>

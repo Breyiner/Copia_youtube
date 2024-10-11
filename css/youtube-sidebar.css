@@ -1,3 +1,13 @@
+/*Propiedades del scrollbar*/
+::-webkit-scrollbar{
+    width: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
+/*Sidebar*/
 .sidebar {
     grid-area: sidebar;
     background-color: #212121;

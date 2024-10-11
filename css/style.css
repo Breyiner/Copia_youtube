@@ -4,7 +4,6 @@
 @import url(youtube-sidebar.css);
 @import url(youtube-chips.css);
 @import url(youtube-content.css);
-@import url(youtube-mediaquerys.css);
 
 * {
   margin: 0;
@@ -28,26 +27,42 @@ Layout
   'sidebar content';
 }
 
-img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
+/*Media Querys*/
+@media (max-width:1200px){
+
+  .youtube {
+    grid-template-columns:70px 1fr;
+  }
+  
+  .header {
+    gap: 6px;
+  }
+  
+  .sidebar-items__texto, .sidebar-items__txt-ayuda {
+    display: none;
+  }
+  
+  .sidebar-items {
+    padding: 0;
+  }
+  
+  .sidebar-items__icon {
+    margin: 0 13px;
+  }
+  
+  .chips-warpper {
+    max-width: calc(100vw - 70px);
+  }
 }
+  
+@media (max-width:800px){
 
-::-webkit-scrollbar{
-  width: 4px;
+  .search-container__barra {
+    display: none;
+  }
+  
+  .icons-header--search {
+    border-radius: 50%;
+    margin-left: 10px;
+  }
 }
-
-::-webkit-scrollbar-thumb {
-  background-color: transparent;
-}
-
-
-
-
-
-
-
