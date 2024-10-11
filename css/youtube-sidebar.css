@@ -10,13 +10,13 @@
 /*Sidebar*/
 .sidebar {
     grid-area: sidebar;
-    background-color: #212121;
+    background-color: var(--colorPrincipal);
     padding: 10px;
     overflow-y: scroll;
 }
   
 .sidebar:hover::-webkit-scrollbar-thumb {
-    background-color: #717171;
+    background-color: var(--colorScrollbar);
     border-radius: 5px;
 }
   
@@ -33,12 +33,12 @@
     align-items: center;
     border-radius: 10px;
     transition: 0.5s;
-    color: #fff;
+    color: var(--blanco);
     text-decoration: none;
 }
 
 .sidebar-items__item:hover {
-    background-color: #4c4c4c;
+    background-color: var(--colorHoverItemSidebar);
 }
 
 .sidebar-items__icon {
@@ -48,11 +48,11 @@
 
 .sidebar-items__separador {
    margin: 12px 0;
-   border: 1px solid rgba(255, 255, 255, 0.1);
+   border: var(--tamanoBorde) var(--estiloBorde) var(--colorBordes);
 }
 
 .sidebar-items__txt-ayuda {
-    color: #aaa;
+    color: var(--colorFuenteSecundario  );
     font-weight: bold;
     text-transform: uppercase;
     font-size: 0.9rem;

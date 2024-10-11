@@ -1,18 +1,18 @@
 .chips-warpper {
     max-width: calc(100vw - 240px);
     overflow-x: scroll;
-    background-color: #181818;
+    background-color: var(--colorSecundario);
     display: flex;
     padding-left: 14px;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: var(--tamanoBorde) var(--estiloBordes) var(--colorBordes);
+    border-bottom: var(--tamanoBorde) var(--estiloBordes) var(--colorBordes);
 }
 
 .chips-warpper__chips {
     margin: 12px 6px;
-    background-color: #373737;
+    background-color: var(--fondoChips);
     padding: 6px 12px;
-    color: #fff;
+    color: var(--blanco);
     cursor: pointer;
     border-radius: 16px;
     white-space: nowrap;
@@ -21,7 +21,7 @@
 }
 
 .chips-warpper__chips:hover {
-    background-color: #d4d4d4;
+    background-color: var(--colorHoverChips);
 }
 
 /*Barra de scroll*/
@@ -30,6 +30,6 @@
 }
   
 .chips-warpper:hover::-webkit-scrollbar-thumb {
-    background-color: #717171;
+    background-color: var(--colorScrollbar);
     border-radius: 5px;
 }

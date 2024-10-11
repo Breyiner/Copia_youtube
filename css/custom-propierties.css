@@ -1,0 +1,29 @@
+:root {
+    /*Colores*/
+    --colorPrincipal: #202020;
+    --colorSecundario: #181818;
+    --blanco: #fff;
+    --negro: #000;
+    --colorBordes: rgba(255, 255, 255, 0.1);
+    --colorScrollbar: #717171;
+    --fondoBarraBusqueda: #121212;
+    --letraBarraBusqueda: #f2f2f2;
+    --fondoBoton: #313131;
+    --colorHoverBoton: #494949;
+    --colorHoverItemSidebar: #4c4c4c;
+    --colorFuenteSecundario: #aaa;
+    --colorFondoChips: #373737;
+    --colorHoverChips: #d4d4d4;
+    --colorHoverVideos: #373737; 
+
+    /*Unidades de medida*/
+    --bordeRedondo: 50%;
+    --tamanoBorde: 1px;
+    --tamanoGap: 6px;
+    --tamanoGapColumns: #10px;
+    --tamanoHeader: 56px;
+    --totalidadTamano: 100%;
+
+    /*Palabras reservadas*/
+    --estiloBordes: solid;
+}

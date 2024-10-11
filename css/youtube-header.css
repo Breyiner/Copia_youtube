@@ -3,9 +3,9 @@
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #202020;
-    width: 100%;
-    height: 56px;
+    background-color: var(--colorPrincipal);
+    width: var(--totalidadTamano);
+    height: var(--tamanoHeader);
     display: flex;
     justify-content: space-between;
     padding: 0 16px;
@@ -14,16 +14,16 @@
 .logo-container {
     display: flex;
     align-items: center;
-    gap: 6px;
-    height: 100%;
+    gap: var(--tamanoGap);
+    height: var(--totalidadTamano);
 }
 
 .imagen {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: var(--totalidadTamano);
+    height: var(--totalidadTamano);
     object-fit: contain;
 }
 
@@ -34,9 +34,9 @@
     width: 40px;
     min-width: 40px;
     height: 40px;
-    color: #fff;
+    color: var(--blanco);
     border: none;
-    border-radius: 50%;
+    border-radius: var(--bordeRedondo);
     font-size: 1.5rem;
     text-decoration: none;
     cursor: pointer;
@@ -45,8 +45,8 @@
 .logo {
     display: flex;
     align-items: center;
-    gap: 6px;
-    color: #fff;
+    gap: var(--tamanoGap);
+    color: var(--blanco);
     letter-spacing: -1px;
     font-size: 0.8rem;
 }
@@ -61,40 +61,40 @@
 .search-container {
     display: flex;
     align-items: center;
-    gap: 6px;
+    gap: var(--tamanoGap);
     flex: 0 1 685px;
 }
   
 .search-container__buscador {
     position: relative;
-    width: 100%;
+    width: var(--totalidadTamano);
     display: flex;
 }
   
 .search-container__barra {
     height: 40px;
-    width: 100%;
-    background-color: #121212;
-    color: #f2f2f2;
+    width: var(--totalidadTamano);
+    background-color: var(--fondoBarraBusqueda);
+    color: var(--letraBarraBusqueda);
     padding: 12px;
     outline: none;
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: var(--tamanoBorde) var(--estiloBordes) var(--colorBordes);
     border-radius: 10px 0 0 10px;
 }
   
 .icons-header--search {
-    background-color: #313131;
+    background-color: var(--fondoBoton);
     border-radius: 0 10px 10px 0;
 }
   
 .icons-header--search:hover {
-    background-color: #494949;
+    background-color: var(--colorHoverBoton);
     transition: 0.8s;
 }
   
 .icons-header--microphone {
-    background-color: #313131;
-    border-radius: 50%;
+    background-color: var(--fondoBoton);
+    border-radius: var(--bordeRedondo);
 }
 
 /*Perfil*/
@@ -105,12 +105,12 @@
 }
   
 .icons-header--icon-profile:hover {
-    background-color: #494949;
+    background-color: var(--colorHoverBoton);
     transition: 0.8s;
 }
   
 .icons-header--logo-profile {
     position: relative;
-    border-radius: 50%;
+    border-radius: var(--bordeRedondo);
     overflow: hidden;
 }

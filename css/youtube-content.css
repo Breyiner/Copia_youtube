@@ -6,9 +6,9 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     grid-auto-rows: max-content;
-    column-gap: 10px;
+    column-gap: var(--tamanoGapColumns);
     padding: 20px;
-    background-color: #181818;
+    background-color: var(--colorFuenteSecundario);
     overflow-y: scroll;
     height: calc(100vh - 115px);
 }
@@ -16,14 +16,14 @@
 .video-content {
     margin-bottom: 25px;
     position: relative;
-    width: 100%;
+    width: var(--totalidadTamano);
     padding: 8px;
     border-radius: 12px;
     transition: 1s;
 }
   
 .video-content:hover {
-    background-color: #373737;
+    background-color: var(--colorHoverVideos);
 }
   
 .video-content__video-box {
@@ -40,7 +40,7 @@
   
 .video-detail {
     display: flex;
-    color: #fff;
+    color: var(--blanco);
     padding-top: 12px;
 }
   
@@ -48,7 +48,7 @@
     position: relative;
     min-width: 35px;
     height: 35px;
-    border-radius: 50%;
+    border-radius: var(--bordeRedondo);
     overflow: hidden;
 }
   
@@ -63,12 +63,12 @@
   
 .details__chanel-name {
     margin-top: 6px;
-    color: #aaa;
+    color: var(--colorFuenteSecundario);
 }
   
 .details__views-upload {
     display: flex;
     gap: 8px;
     margin-top: 4px;
-    color: #aaa;
+    color: var(--colorFuenteSecundario);
 }

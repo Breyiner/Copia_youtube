@@ -35,7 +35,7 @@ Layout
   }
   
   .header {
-    gap: 6px;
+    gap: var(--tamanoGap);
   }
   
   .sidebar-items__texto, .sidebar-items__txt-ayuda {
@@ -62,7 +62,7 @@ Layout
   }
   
   .icons-header--search {
-    border-radius: 50%;
+    border-radius: var(--bordeRedondo);
     margin-left: 10px;
   }
 }
