@@ -48,7 +48,7 @@
 
 .sidebar-items__separador {
    margin: 12px 0;
-   border: var(--tamanoBorde) var(--estiloBorde) var(--colorBordes);
+   border: var(--tamanoBorde) var(--estiloBordes) var(--colorBordes);
 }
 
 .sidebar-items__txt-ayuda {
