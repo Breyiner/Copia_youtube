@@ -10,7 +10,7 @@
 
 .chips-warpper__chips {
     margin: 12px 6px;
-    background-color: var(--fondoChips);
+    background-color: var(--colorFondoChips);
     padding: 6px 12px;
     color: var(--blanco);
     cursor: pointer;
